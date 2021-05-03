@@ -11,7 +11,7 @@ def isUnique(string):
 
 def isUniqueNoStructures(string):
     if len(string) > 1:
-        string = sorted(string)
+        sorted(string)
         for i in range(len(string) - 1):
             if string[i] == string[i+1]:
                 return False
